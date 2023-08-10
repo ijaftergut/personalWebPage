@@ -1,0 +1,23 @@
+nav {
+    display: flex;
+}
+nav > a {
+    flex: 1;
+    text-decoration: none;
+    border: solid 03px black;
+    text-align: center;
+    padding: 0.5rem;
+    color: teal;
+}
+nav > a .selected {
+    background-color: teal;
+    color: antiquewhite;
+}
+nav > a first-child {
+    border-radius: 0 0.5rem  0.5rem 0;
+
+}
+nav > a last-child {
+    border-radius: 0.5rem 0 0 0.5rem;
+    
+}
