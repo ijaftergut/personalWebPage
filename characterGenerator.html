@@ -2,6 +2,7 @@
 <html lang="en" dir="'ltr">
 <head>
     <meta charset="utf-8">
+    <link href="style.css" rel="stylesheet"/>
     <title>characterGenerator</title>
 </head>
 <body>
@@ -61,20 +62,26 @@
         </datalist>
     </div>
 <h2>Possible Classes:</h2>
-    <button class="buttonB" id="Artificer">Artificer</button>
-    <button class="buttonB" id="Barbarian">Barbarian</button>
-    <button class="buttonB" id="Bard">Bard</button>
-    <button class="buttonB" id="Blood Hunter">Blood Hunter</button>
-    <button class="buttonB" id="Cleric">Cleric</button>
-    <button class="buttonB" id="Druid">Druid</button>
-    <button class="buttonB" id="Fighter">Fighter</button>
-    <button class="buttonB" id="Monk">Monk</button>
-    <button class="buttonB" id="Paladin">Paladin</button>
-    <button class="buttonB" id="Ranger">Ranger</button>
-    <button class="buttonB" id="Rogue">Rogue</button>
-    <button class="buttonB" id="Sorcerer">Sorcerer</button>
-    <button class="buttonB" id="Warlock">Warlock</button>
-    <button class="buttonB" id="Wizard">Wizard</button>
+<div>
+    <input type="text" oninput='onInputC()' id="class" list="classes" placeholder="Player Class">
+    <datalist id="classes">
+        <option value="Artificer">
+        <option value="Barbarian">
+        <option value="Bard">
+        <option value="Blood Hunter">
+        <option value="Cleric">
+        <option value="Druid">
+        <option value="Fighter">
+        <option value="Monk">
+        <option value="Paladin">
+        <option value="Ranger">
+        <option value="Rogue">
+        <option value="Sorcerer">
+        <option value="Warlock">
+        <option value="Wizard">
+        </option>
+    </datalist>
+</div>
 <h2>Player Race: <span id="player-Race"></span></h2>
 <h2>Player Class: <span id="player-Class"></span></h2>
 <h2>Player Stats: <span id="player-Stats"></span></h2>

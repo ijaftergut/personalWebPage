@@ -27,14 +27,19 @@ function onInputR() {
       }
     }
   }
-possibleClasses.forEach(possibleClass => possibleClass.addEventListener('click', (e) => {
-    playerClass = e.target.id
-    classes.innerHTML = playerClass
-    if (playerClass && playerRace) {
+  function onInputC() {
+    var val = document.getElementById("class").value;
+    var opts = document.getElementById('classes').childNodes;
+    for (var i = 0; i < opts.length; i++) {
+      if (opts[i].value === val) {
+        playerClass = document.getElementById("player-Class")
+        playerClass.innerHTML = (opts[i].value)
+        playerClass = playerClass.innerHTML
         generateStats()
+        break;
+      }
     }
-}))
-
+  }
 function compareNumbers(a, b) {
     return a - b;
 }

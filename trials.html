@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trials</title>
+</head>
+<style>
+
+    .IndianRed { background-color: indianred; }
+    .LightCoral { background-color: lightcoral; }
+    .Salmon { background-color: salmon; }
+    .DarkSalmon { background-color: darksalmon; }
+    .LightSalmon { background-color: lightsalmon; }
+    .Red { background-color: red; }
+    .Crimson { background-color: crimson; }
+    .FireBrick { background-color: firebrick; }
+    .DarkRed { background-color: darkred; }
+
+    .Coral { background-color: coral; }
+    .Tomato { background-color: tomato; }
+    .OrangeRed { background-color: orangered; }
+    .DarkOrange { background-color: darkorange; }
+    .Orange { background-color: orange; }
+
+    .Gold { background-color: gold; }
+    .Yellow { background-color: yellow; }
+    .LightYellow { background-color: lightyellow; }
+    .LemonChiffon { background-color: lemonchiffon; }
+    .LightGoldenrodYellow { background-color: lightgoldenrodyellow; }
+    .PapayaWhip { background-color: papayawhip; }
+    .Moccasin { background-color: moccasin; }
+    .PeachPuff { background-color: peachpuff; }
+    .PaleGoldenrod { background-color: palegoldenrod; }
+    .Khaki { background-color: khaki; }
+    .DarkKhaki { background-color: darkkhaki; }
+
+    .GreenYellow { background-color: greenyellow; }
+    .Chartreuse { background-color: chartreuse; }
+    .LawnGreen { background-color: lawngreen; }
+    .Lime { background-color: lime; }
+    .LimeGreen { background-color: limegreen; }
+    .PaleGreen { background-color: palegreen; }
+    .LightGreen { background-color: lightgreen; }
+    .MediumSpringGreen { background-color: mediumspringgreen; }
+    .SpringGreen { background-color: springgreen; }
+    .MediumSeaGreen { background-color: mediumseagreen; }
+    .SeaGreen { background-color: seagreen; }
+    .ForestGreen { background-color: forestgreen; }
+    .Green { background-color: green; }
+    .DarkGreen { background-color: darkgreen; }
+    .YellowGreen { background-color: yellowgreen; }
+    .OliveDrab { background-color: olivedrab; }
+    .Olive { background-color: olive; }
+
+    .DarkOliveGreen { background-color: darkolivegreen; }
+    .MediumAquamarine { background-color: mediumaquamarine; }
+    .DarkSeaGreen { background-color: darkseagreen; }
+    .LightSeaGreen { background-color: lightseagreen; }
+    .DarkCyan { background-color: darkcyan; }
+    .Teal { background-color: teal; }
+    .Aqua { background-color: aqua; }
+    .Cyan { background-color: cyan; }
+    .LightCyan { background-color: lightcyan; }
+    .PaleTurquoise { background-color: paleturquoise; }
+    .Aquamarine { background-color: aquamarine; }
+    .Turquoise { background-color: turquoise; }
+    .MediumTurquoise { background-color: mediumturquoise; }
+    .DarkTurquoise { background-color: darkturquoise; }
+    .CadetBlue { background-color: cadetblue; }
+    .SteelBlue { background-color: steelblue; }
+    .LightSteelBlue { background-color: lightsteelblue; }
+    .PowderBlue { background-color: powderblue; }
+    .LightBlue { background-color: lightblue; }
+    .SkyBlue { background-color: skyblue; }
+    .LightSkyBlue { background-color: lightskyblue; }
+    .DeepSkyBlue { background-color: deepskyblue; }
+    .DodgerBlue { background-color: dodgerblue; }
+    .CornflowerBlue { background-color: cornflowerblue; }
+    .RoyalBlue { background-color: royalblue; }
+    .Blue { background-color: blue; }
+    .MediumBlue { background-color: mediumblue; }
+    .DarkBlue { background-color: darkblue; }
+    .Navy { background-color: navy; }
+    .MidnightBlue { background-color: midnightblue; }
+
+    .Lavender { background-color: lavender; }
+    .Thistle { background-color: thistle; }
+    .Plum { background-color: plum; }
+    .Violet { background-color: violet; }
+    .Orchid { background-color: orchid; }
+    .MediumOrchid { background-color: mediumorchid; }
+    .DarkOrchid { background-color: darkorchid; }
+    .DarkViolet { background-color: darkviolet; }
+    .BlueViolet { background-color: blueviolet; }
+    .MediumPurple { background-color: mediumpurple; }
+    .MediumSlateBlue { background-color: mediumslateblue; }
+    .SlateBlue { background-color: slateblue; }
+    .DarkSlateBlue { background-color: darkslateblue; }
+    .RebeccaPurple { background-color: rebeccapurple; }
+    .Indigo { background-color: indigo; }
+
+    .White { background-color: white; }
+    .Snow { background-color: snow; }
+    .Honeydew { background-color: honeydew; }
+    .MintCream { background-color: mintcream; }
+    .Azure { background-color: azure; }
+    .AliceBlue { background-color: aliceblue; }
+    .GhostWhite { background-color: ghostwhite; }
+    .WhiteSmoke { background-color: whitesmoke; }
+    .Seashell { background-color: seashell; }
+    .Beige { background-color: beige; }
+    .OldLace { background-color: oldlace; }
+    .FloralWhite { background-color: floralwhite; }
+    .Ivory { background-color: ivory; }
+    .AntiqueWhite { background-color: antiquewhite; }
+    .Linen { background-color: linen; }
+    .LavenderBlush { background-color: lavenderblush; }
+    .MistyRose { background-color: mistyrose; }
+    .Gainsboro { background-color: gainsboro; }
+    .LightGray { background-color: lightgray; }
+    .Silver { background-color: silver; }
+    .DarkGray { background-color: darkgray; }
+    .Gray { background-color: gray; }
+    .DimGray { background-color: dimgray; }
+    .LightSlateGray { background-color: lightslategray; }
+    .SlateGray { background-color: slategray; }
+    .DarkSlateGray { background-color: darkslategray; }
+    .Black { background-color: black; }
+
+    .color-button {
+        color: white;
+        font-size: 16px;
+        padding: 10px;
+        cursor: pointer;
+        margin: 5px;
+    }
+    .function {
+        font-size: 24px;
+        color: black;
+    }
+</style>
+<body>
+    <h1>Pick a Color!</h1>
+
+    <h2>Color: <span class="function" id= "function" color=""></span></h2>
+
+    <button class="color-button IndianRed" title="IndianRed">Indian Red</button>
+    <button class="color-button LightCoral" title="LightCoral">Light Coral</button>
+    <button class="color-button Salmon" title="Salmon">Salmon</button>
+    <button class="color-button DarkSalmon" title="DarkSalmon">Dark Salmon</button>
+    <button class="color-button LightSalmon" title="LightSalmon">Light Salmon</button>
+    <button class="color-button Red" title="Red">Red</button>
+    <button class="color-button Crimson" title="Crimson">Crimson</button>
+    <button class="color-button FireBrick" title="FireBrick">Fire Brick</button>
+    <button class="color-button DarkRed" title="DarkRed">Dark Red</button>
+    <button class="color-button Coral" title="Coral">Coral</button>
+    <button class="color-button Tomato" title="Tomato">Tomato</button>
+    <button class="color-button OrangeRed" title="OrangeRed">Orange Red</button>
+    <button class="color-button DarkOrange" title="DarkOrange">Dark Orange</button>
+    <button class="color-button Orange" title="Orange">Orange</button>
+    <button class="color-button Gold" title="Gold">Gold</button>
+    <button class="color-button Yellow" title="Yellow">Yellow</button>
+    <button class="color-button LightYellow" title="LightYellow">Light Yellow</button>
+    <button class="color-button LemonChiffon" title="LemonChiffon">Lemon Chiffon</button>
+    <button class="color-button LightGoldenrodYellow" title="LightGoldenrodYellow">Light Goldenrod Yellow</button>
+    <button class="color-button PapayaWhip" title="PapayaWhip">Papaya Whip</button>
+    <button class="color-button Moccasin" title="Moccasin">Moccasin</button>
+    <button class="color-button PeachPuff" title="PeachPuff">Peach Puff</button>
+    <button class="color-button PaleGoldenrod" title="PaleGoldenrod">Pale Goldenrod</button>
+    <button class="color-button Khaki" title="Khaki">Khaki</button>
+    <button class="color-button DarkKhaki" title="DarkKhaki">Dark Khaki</button>
+    <button class="color-button GreenYellow" title="GreenYellow">Green Yellow</button>
+    <button class="color-button Chartreuse" title="Chartreuse">Chartreuse</button>
+    <button class="color-button LawnGreen" title="LawnGreen">Lawn Green</button>
+    <button class="color-button Lime" title="Lime">Lime</button>
+    <button class="color-button LimeGreen" title="LimeGreen">Lime Green</button>
+    <button class="color-button PaleGreen" title="PaleGreen">Pale Green</button>
+    <button class="color-button LightGreen" title="LightGreen">Light Green</button>
+    <button class="color-button MediumSpringGreen" title="MediumSpringGreen">Medium Spring Green</button>
+    <button class="color-button SpringGreen" title="SpringGreen">Spring Green</button>
+    <button class="color-button MediumSeaGreen" title="MediumSeaGreen">Medium Sea Green</button>
+    <button class="color-button SeaGreen" title="SeaGreen">Sea Green</button>
+    <button class="color-button ForestGreen" title="ForestGreen">Forest Green</button>
+    <button class="color-button Green" title="Green">Green</button>
+    <button class="color-button DarkGreen" title="DarkGreen">Dark Green</button>
+    <button class="color-button YellowGreen" title="YellowGreen">Yellow Green</button>
+    <button class="color-button OliveDrab" title="OliveDrab">Olive Drab</button>
+    <button class="color-button Olive" title="Olive">Olive</button>
+    <button class="color-button DarkOliveGreen" title="DarkOliveGreen">Dark Olive Green</button>
+    <button class="color-button MediumAquamarine" title="MediumAquamarine">Medium Aquamarine</button>
+    <button class="color-button DarkSeaGreen" title="DarkSeaGreen">Dark Sea Green</button>
+    <button class="color-button LightSeaGreen" title="LightSeaGreen">Light Sea Green</button>
+    <button class="color-button DarkCyan" title="DarkCyan">Dark Cyan</button>
+    <button class="color-button Teal" title="Teal">Teal</button>
+    <button class="color-button Aqua" title="Aqua">Aqua</button>
+    <button class="color-button Cyan" title="Cyan">Cyan</button>
+    <button class="color-button LightCyan" title="LightCyan">Light Cyan</button>
+    <button class="color-button PaleTurquoise" title="PaleTurquoise">Pale Turquoise</button>
+    <button class="color-button Aquamarine" title="Aquamarine">Aquamarine</button>
+    <button class="color-button Turquoise" title="Turquoise">Turquoise</button>
+    <button class="color-button MediumTurquoise" title="MediumTurquoise">Medium Turquoise</button>
+    <button class="color-button DarkTurquoise" title="DarkTurquoise">Dark Turquoise</button>
+    <button class="color-button CadetBlue" title="CadetBlue">Cadet Blue</button>
+    <button class="color-button SteelBlue" title="SteelBlue">Steel Blue</button>
+    <button class="color-button LightSteelBlue" title="LightSteelBlue">Light Steel Blue</button>
+    <button class="color-button PowderBlue" title="PowderBlue">Powder Blue</button>
+    <button class="color-button LightBlue" title="LightBlue">Light Blue</button>
+    <button class="color-button SkyBlue" title="SkyBlue">Sky Blue</button>
+    <button class="color-button LightSkyBlue" title="LightSkyBlue">Light Sky Blue</button>
+    <button class="color-button DeepSkyBlue" title="DeepSkyBlue">Deep Sky Blue</button>
+    <button class="color-button DodgerBlue" title="DodgerBlue">Dodger Blue</button>
+    <button class="color-button CornflowerBlue" title="CornflowerBlue">Cornflower Blue</button>
+    <button class="color-button RoyalBlue" title="RoyalBlue">Royal Blue</button>
+    <button class="color-button Blue" title="Blue">Blue</button>
+    <button class="color-button MediumBlue" title="MediumBlue">Medium Blue</button>
+    <button class="color-button DarkBlue" title="DarkBlue">Dark Blue</button>
+    <button class="color-button Navy" title="Navy">Navy</button>
+    <button class="color-button MidnightBlue" title="MidnightBlue">Midnight Blue</button>
+    <button class="color-button Lavender" title="Lavender">Lavender</button>
+    <button class="color-button Thistle" title="Thistle">Thistle</button>
+    <button class="color-button Plum" title="Plum">Plum</button>
+    <button class="color-button Violet" title="Violet">Violet</button>
+    <button class="color-button Orchid" title="Orchid">Orchid</button>
+    <button class="color-button MediumOrchid" title="MediumOrchid">Medium Orchid</button>
+    <button class="color-button DarkOrchid" title="DarkOrchid">Dark Orchid</button>
+    <button class="color-button DarkViolet" title="DarkViolet">Dark Violet</button>
+    <button class="color-button BlueViolet" title="BlueViolet">Blue Violet</button>
+    <button class="color-button MediumPurple" title="MediumPurple">Medium Purple</button>
+    <button class="color-button MediumSlateBlue" title="MediumSlateBlue">Medium Slate Blue</button>
+    <button class="color-button SlateBlue" title="SlateBlue">Slate Blue</button>
+    <button class="color-button DarkSlateBlue" title="DarkSlateBlue">Dark Slate Blue</button>
+    <button class="color-button RebeccaPurple" title="RebeccaPurple">Rebecca Purple</button>
+    <button class="color-button Indigo" title="Indigo">Indigo</button>
+    <button class="color-button White" title="White">White</button>
+    <button class="color-button Snow" title="Snow">Snow</button>
+    <button class="color-button Honeydew" title="Honeydew">Honeydew</button>
+    <button class="color-button MintCream" title="MintCream">Mint Cream</button>
+    <button class="color-button Azure" title="Azure">Azure</button>
+    <button class="color-button AliceBlue" title="AliceBlue">Alice Blue</button>
+    <button class="color-button GhostWhite" title="GhostWhite">Ghost White</button>
+    <button class="color-button WhiteSmoke" title="WhiteSmoke">White Smoke</button>
+    <button class="color-button Seashell" title="Seashell">Seashell</button>
+    <button class="color-button Beige" title="Beige">Beige</button>
+    <button class="color-button OldLace" title="OldLace">Old Lace</button>
+    <button class="color-button FloralWhite" title="FloralWhite">Floral White</button>
+    <button class="color-button Ivory" title="Ivory">Ivory</button>
+    <button class="color-button AntiqueWhite" title="AntiqueWhite">Antique White</button>
+    <button class="color-button Linen" title="Linen">Linen</button>
+    <button class="color-button LavenderBlush" title="LavenderBlush">Lavender Blush</button>
+    <button class="color-button MistyRose" title="MistyRose">Misty Rose</button>
+    <button class="color-button Gainsboro" title="Gainsboro">Gainsboro</button>
+    <button class="color-button LightGray" title="LightGray">Light Gray</button>
+    <button class="color-button Silver" title="Silver">Silver</button>
+    <button class="color-button DarkGray" title="DarkGray">Dark Gray</button>
+    <button class="color-button Gray" title="Gray">Gray</button>
+    <button class="color-button DimGray" title="DimGray">Dim Gray</button>
+    <button class="color-button LightSlateGray" title="LightSlateGray">Light Slate Gray</button>
+    <button class="color-button SlateGray" title="SlateGray">Slate Gray</button>
+    <button class="color-button DarkSlateGray" title="DarkSlateGray">Dark Slate Gray</button>
+    <button class="color-button Black" title="Black">Black</button>
+    <a href="portfolio.html">Portfolio</a>
+    <script src="trials.js"></script>
+
+</body>
+</html>
