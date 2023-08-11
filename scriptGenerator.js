@@ -7,14 +7,8 @@ const Con = document.getElementById('Con')
 const Int = document.getElementById('Int')
 const Wis = document.getElementById('Wis')
 const Cha = document.getElementById('Cha')
-const possibleRaces = document.querySelectorAll(".buttonA");
-const possibleClasses = document.querySelectorAll(".buttonB");
-
 let playerRace
 let playerClass
-
-
-
 function onInputR() {
     var val = document.getElementById("race").value;
     var opts = document.getElementById('races').childNodes;
