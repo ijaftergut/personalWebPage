@@ -1,0 +1,25 @@
+div{
+    display: flex;
+    border: .5px dashed black;
+    height: 20px;
+    width: 200px;
+    background-color: white;
+}
+.sky{
+  background-color: aqua;
+}
+.earth{
+  background-color: chocolate;
+}
+.grass{
+  background-color:darkgreen;
+}
+
+#character{
+  background-color: firebrick;
+  border-radius: 10px;
+}
+#sun{
+  background-color: yellow;
+  border-radius: 10px;
+}
