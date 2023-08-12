@@ -15,9 +15,10 @@ div{
   background-color:darkgreen;
 }
 
-#character{
+:hover.character{
   background-color: firebrick;
   border-radius: 10px;
+  
 }
 #sun{
   background-color: yellow;
